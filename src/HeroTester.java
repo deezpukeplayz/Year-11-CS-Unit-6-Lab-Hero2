@@ -7,12 +7,15 @@ import static org.junit.Assert.assertTrue;
 
 public class HeroTester {
 
+    private String name;
+
+
     private Hero hero1;
     private Hero hero2;
 
     public void setUp() {
         hero1 = new Hero("Andrew Tate");
-        hero2 = new Hero("Taylor Swift");
+        hero2 = new Hero("Ryan Chan");
     }
 
     public void tearDown() {
